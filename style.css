@@ -4,6 +4,29 @@
   border: 0;
   box-sizing: border-box;
 }
+
+nav {
+  background: goldenrod;
+  height: 80px;
+  width: 100%;
+}
+nav ul {
+  float: right;
+  margin-right: 50px;
+}
+nav ul li {
+  display: inline-flex;
+  line-height: 30%;
+  margin: 10px 5px;
+  color: white;
+}
+.nava {
+  color: white;
+  font-size: 17px;
+  padding: 20px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
 body {
   font-family: Lexend Deca;
 }
