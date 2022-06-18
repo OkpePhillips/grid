@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Lexend Deca;
+}
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Sedan {
+  background-color: hsl(31, 77%, 52%);
+  width: 33.3%;
+  color: white;
+  padding: 20px;
+  height: 60%;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  width: 33.3%;
+  color: white;
+  padding: 20px;
+  height: 60%;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  width: 33.3%;
+  color: white;
+  padding: 20px;
+  height: 60%;
+}
+h2 {
+  color: white;
+  margin: 10px;
+}
+p {
+  padding: 10px;
+}
+.img {
+  margin: 20px;
+}
+.sedbutton {
+  margin: 30px;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+}
+.suvbutton {
+  margin: 50px 30px 30px 30px;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+}
+.luxbutton {
+  margin: 30px;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+}
